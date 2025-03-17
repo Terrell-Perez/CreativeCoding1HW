@@ -1,0 +1,15 @@
+span{background-color:rgb(255, 0, 255);}
+#BBigger{color:blue;
+font-family:Arial;
+font-size:24px;} 
+.green{color:rgb(0, 255, 76);} {font-family:Arial;}
+.purple{color:rgb(255, 0, 255)} {font-family:Arial;}
+#Pbigger{color:rgb(255, 0, 255);
+    font-family:Arial;
+    font-size:24px;}
+    body{background-image:url(UMT.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+}

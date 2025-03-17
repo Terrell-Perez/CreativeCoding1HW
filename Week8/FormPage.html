@@ -1,0 +1,32 @@
+<html>
+    <title>Forms</title>
+    <head>
+        <script>
+            function getdata()
+            {
+                var name= document.getElementById("txtname").value;
+                var phone= document.getElementById("txtphone").value;
+
+                document.getElementById("finalresult").innerHTML = "name: " + name + " phone: " + phone;
+            }
+        </script>
+
+
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>First & Last Name</td>
+                <td><input type="text" name="First & Last Name" id="txtname"></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="text" name="Phone Number" id="txtphone"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="btnSubmit" onClick="getdata()">Submit</button></td>
+            </tr>
+        </table>
+        <div id="finalresult"></div>
+    </body>
+</html>
