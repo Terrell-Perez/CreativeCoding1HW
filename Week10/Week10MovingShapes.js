@@ -80,7 +80,7 @@ function draw() {
   textSize(size);
   size+= sizeDirection;
   count++;
-  if(count >  7)
+  if(count >  5)
     {
       sizeDirection *=-1;
       count = 0;
