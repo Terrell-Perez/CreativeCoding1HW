@@ -21,8 +21,7 @@ function preload() {
 }
 
 function setup() {
-  let canvas = createCanvas(400, 400);
-  canvas.parent(document.body);
+  createCanvas(400, 400);
   textFont('Arial');
   textAlign(CENTER, CENTER);
   noLoop(); // Prevent continuous drawing
